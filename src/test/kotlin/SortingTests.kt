@@ -34,4 +34,10 @@ class SortingTests {
         Assertions.assertEquals(arrayListOf("09", "1", "101", "11", "712", "8165"),
             sorter.sort(arrayListOf("101", "8165", "712", "11", "1", "09")))
     }
+
+    @Test
+    fun testAllStrings() {
+        Assertions.assertEquals(arrayListOf("!алгоритмы", ".zzz", "1", "101", "basdg", "zay", "врач", "юзя"),
+            sorter.sort(arrayListOf(".zzz", "101", "basdg", "юзя", "zay", "1", "!алгоритмы", "врач")))
+    }
 }
