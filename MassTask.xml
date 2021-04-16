@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<experiments>
+    <experiment name="MergeSort">
+        <nodes name="Arithmetic Progression" minElement="0" maxElement="20" startLength="1" diff="10"
+               maxLength="3000" repeat="1"/>
+        <nodes name="Geometric Progression" minElement="0" maxElement="20" startLength="10" znamen="1.5"
+               maxLength="10000" repeat="1"/>
+    </experiment>
+</experiments>
